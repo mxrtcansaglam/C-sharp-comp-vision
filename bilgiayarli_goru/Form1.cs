@@ -186,7 +186,6 @@ namespace bilgiayarli_goru
                 // Chart'ı temizle"
                 chart1.Series.Clear();
 
-                // Gri tonları için seriyi ekle
                 Series seriesGray = new Series("Gray");
                 seriesGray.ChartType = SeriesChartType.Column; // Grafik tipi belirle
                 seriesGray.Color = Color.Black;
